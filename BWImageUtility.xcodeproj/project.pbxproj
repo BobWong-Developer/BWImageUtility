@@ -9,12 +9,11 @@
 /* Begin PBXBuildFile section */
 		212F51801D40AD3B001CBA91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F517F1D40AD3B001CBA91 /* main.m */; };
 		212F51831D40AD3B001CBA91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F51821D40AD3B001CBA91 /* AppDelegate.m */; };
-		212F51861D40AD3B001CBA91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F51851D40AD3B001CBA91 /* ViewController.m */; };
-		212F51891D40AD3B001CBA91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212F51871D40AD3B001CBA91 /* Main.storyboard */; };
 		212F518B1D40AD3B001CBA91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212F518A1D40AD3B001CBA91 /* Assets.xcassets */; };
 		212F518E1D40AD3B001CBA91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212F518C1D40AD3B001CBA91 /* LaunchScreen.storyboard */; };
 		212F51991D40AD3B001CBA91 /* BWImageUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F51981D40AD3B001CBA91 /* BWImageUtilityTests.m */; };
 		212F51A41D40AD3B001CBA91 /* BWImageUtilityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F51A31D40AD3B001CBA91 /* BWImageUtilityUITests.m */; };
+		C6B34B25118F0EE73FB888A7 /* libPods-BWImageUtility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B415BF0F31D11D1D4879FC1D /* libPods-BWImageUtility.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +38,6 @@
 		212F517F1D40AD3B001CBA91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		212F51811D40AD3B001CBA91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		212F51821D40AD3B001CBA91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		212F51841D40AD3B001CBA91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		212F51851D40AD3B001CBA91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		212F51881D40AD3B001CBA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		212F518A1D40AD3B001CBA91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		212F518D1D40AD3B001CBA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		212F518F1D40AD3B001CBA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +47,9 @@
 		212F519F1D40AD3B001CBA91 /* BWImageUtilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWImageUtilityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		212F51A31D40AD3B001CBA91 /* BWImageUtilityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWImageUtilityUITests.m; sourceTree = "<group>"; };
 		212F51A51D40AD3B001CBA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F6D4CD257DCA175E908672 /* Pods-BWImageUtility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWImageUtility.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWImageUtility/Pods-BWImageUtility.release.xcconfig"; sourceTree = "<group>"; };
+		9D4DE177FDA02CA82817E12C /* Pods-BWImageUtility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWImageUtility.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWImageUtility/Pods-BWImageUtility.debug.xcconfig"; sourceTree = "<group>"; };
+		B415BF0F31D11D1D4879FC1D /* libPods-BWImageUtility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWImageUtility.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B34B25118F0EE73FB888A7 /* libPods-BWImageUtility.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +85,8 @@
 				212F51971D40AD3B001CBA91 /* BWImageUtilityTests */,
 				212F51A21D40AD3B001CBA91 /* BWImageUtilityUITests */,
 				212F517C1D40AD3B001CBA91 /* Products */,
+				A6B13011B813D204C56B0649 /* Pods */,
+				930D2152C0A672FC82075D11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +105,8 @@
 			children = (
 				212F51811D40AD3B001CBA91 /* AppDelegate.h */,
 				212F51821D40AD3B001CBA91 /* AppDelegate.m */,
-				212F51841D40AD3B001CBA91 /* ViewController.h */,
-				212F51851D40AD3B001CBA91 /* ViewController.m */,
-				212F51871D40AD3B001CBA91 /* Main.storyboard */,
+				B4815FE51D40CD6100118586 /* MVC */,
 				212F518A1D40AD3B001CBA91 /* Assets.xcassets */,
-				212F518C1D40AD3B001CBA91 /* LaunchScreen.storyboard */,
-				212F518F1D40AD3B001CBA91 /* Info.plist */,
 				212F517E1D40AD3B001CBA91 /* Supporting Files */,
 			);
 			path = BWImageUtility;
@@ -118,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				212F517F1D40AD3B001CBA91 /* main.m */,
+				212F518F1D40AD3B001CBA91 /* Info.plist */,
+				212F518C1D40AD3B001CBA91 /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +140,54 @@
 			path = BWImageUtilityUITests;
 			sourceTree = "<group>";
 		};
+		930D2152C0A672FC82075D11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B415BF0F31D11D1D4879FC1D /* libPods-BWImageUtility.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6B13011B813D204C56B0649 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D4DE177FDA02CA82817E12C /* Pods-BWImageUtility.debug.xcconfig */,
+				54F6D4CD257DCA175E908672 /* Pods-BWImageUtility.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4815FE51D40CD6100118586 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				B4815FE71D40CD6100118586 /* Home */,
+				B4815FE61D40CD6100118586 /* Album */,
+				B4815FE81D40CD6100118586 /* PreviewImage */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		B4815FE61D40CD6100118586 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		B4815FE71D40CD6100118586 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B4815FE81D40CD6100118586 /* PreviewImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PreviewImage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 212F51A81D40AD3B001CBA91 /* Build configuration list for PBXNativeTarget "BWImageUtility" */;
 			buildPhases = (
+				D196DF1A973083F48158AE62 /* [CP] Check Pods Manifest.lock */,
 				212F51771D40AD3B001CBA91 /* Sources */,
 				212F51781D40AD3B001CBA91 /* Frameworks */,
 				212F51791D40AD3B001CBA91 /* Resources */,
+				29D63DE303794D07D3DB8FF0 /* [CP] Embed Pods Frameworks */,
+				ABB880680B03D708C48542C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,7 +296,6 @@
 			files = (
 				212F518E1D40AD3B001CBA91 /* LaunchScreen.storyboard in Resources */,
 				212F518B1D40AD3B001CBA91 /* Assets.xcassets in Resources */,
-				212F51891D40AD3B001CBA91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,12 +315,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29D63DE303794D07D3DB8FF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWImageUtility/Pods-BWImageUtility-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABB880680B03D708C48542C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWImageUtility/Pods-BWImageUtility-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D196DF1A973083F48158AE62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		212F51771D40AD3B001CBA91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				212F51861D40AD3B001CBA91 /* ViewController.m in Sources */,
 				212F51831D40AD3B001CBA91 /* AppDelegate.m in Sources */,
 				212F51801D40AD3B001CBA91 /* main.m in Sources */,
 			);
@@ -308,14 +405,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		212F51871D40AD3B001CBA91 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				212F51881D40AD3B001CBA91 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		212F518C1D40AD3B001CBA91 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,9 +500,11 @@
 		};
 		212F51A91D40AD3B001CBA91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D4DE177FDA02CA82817E12C /* Pods-BWImageUtility.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BWImageUtility/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWImageUtility;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +513,11 @@
 		};
 		212F51AA1D40AD3B001CBA91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54F6D4CD257DCA175E908672 /* Pods-BWImageUtility.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BWImageUtility/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWImageUtility;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +589,7 @@
 				212F51AA1D40AD3B001CBA91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		212F51AB1D40AD3B001CBA91 /* Build configuration list for PBXNativeTarget "BWImageUtilityTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +598,7 @@
 				212F51AD1D40AD3B001CBA91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		212F51AE1D40AD3B001CBA91 /* Build configuration list for PBXNativeTarget "BWImageUtilityUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +607,7 @@
 				212F51B01D40AD3B001CBA91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
