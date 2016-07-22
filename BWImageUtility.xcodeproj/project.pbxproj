@@ -13,6 +13,13 @@
 		212F518E1D40AD3B001CBA91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212F518C1D40AD3B001CBA91 /* LaunchScreen.storyboard */; };
 		212F51991D40AD3B001CBA91 /* BWImageUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F51981D40AD3B001CBA91 /* BWImageUtilityTests.m */; };
 		212F51A41D40AD3B001CBA91 /* BWImageUtilityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F51A31D40AD3B001CBA91 /* BWImageUtilityUITests.m */; };
+		B43C277A1D41A68200CC33A1 /* BWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C27791D41A68200CC33A1 /* BWHomeViewController.m */; };
+		B43C27801D41A6A000CC33A1 /* BWAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C277F1D41A6A000CC33A1 /* BWAlbumViewController.m */; };
+		B43C27851D41B37F00CC33A1 /* show_landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B43C27831D41B37F00CC33A1 /* show_landscape@2x.png */; };
+		B43C27861D41B37F00CC33A1 /* show_portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B43C27841D41B37F00CC33A1 /* show_portrait@2x.png */; };
+		B43C278D1D41BB1400CC33A1 /* BWPreviewImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C27891D41BB1400CC33A1 /* BWPreviewImageViewController.m */; };
+		B43C278E1D41BB1400CC33A1 /* BMZoomingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C278C1D41BB1400CC33A1 /* BMZoomingImageView.m */; };
+		B43C27911D41BD4E00CC33A1 /* BWPreviewImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C27901D41BD4E00CC33A1 /* BWPreviewImageManager.m */; };
 		C6B34B25118F0EE73FB888A7 /* libPods-BWImageUtility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B415BF0F31D11D1D4879FC1D /* libPods-BWImageUtility.a */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +57,20 @@
 		54F6D4CD257DCA175E908672 /* Pods-BWImageUtility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWImageUtility.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWImageUtility/Pods-BWImageUtility.release.xcconfig"; sourceTree = "<group>"; };
 		9D4DE177FDA02CA82817E12C /* Pods-BWImageUtility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWImageUtility.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWImageUtility/Pods-BWImageUtility.debug.xcconfig"; sourceTree = "<group>"; };
 		B415BF0F31D11D1D4879FC1D /* libPods-BWImageUtility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWImageUtility.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43C27781D41A68200CC33A1 /* BWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeViewController.h; sourceTree = "<group>"; };
+		B43C27791D41A68200CC33A1 /* BWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHomeViewController.m; sourceTree = "<group>"; };
+		B43C277E1D41A6A000CC33A1 /* BWAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWAlbumViewController.h; sourceTree = "<group>"; };
+		B43C277F1D41A6A000CC33A1 /* BWAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWAlbumViewController.m; sourceTree = "<group>"; };
+		B43C27811D41A7FC00CC33A1 /* BWImageUtilityPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWImageUtilityPrefixHeader.pch; sourceTree = "<group>"; };
+		B43C27831D41B37F00CC33A1 /* show_landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "show_landscape@2x.png"; sourceTree = "<group>"; };
+		B43C27841D41B37F00CC33A1 /* show_portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "show_portrait@2x.png"; sourceTree = "<group>"; };
+		B43C27881D41BB1400CC33A1 /* BWPreviewImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWPreviewImageViewController.h; sourceTree = "<group>"; };
+		B43C27891D41BB1400CC33A1 /* BWPreviewImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWPreviewImageViewController.m; sourceTree = "<group>"; };
+		B43C278B1D41BB1400CC33A1 /* BMZoomingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMZoomingImageView.h; sourceTree = "<group>"; };
+		B43C278C1D41BB1400CC33A1 /* BMZoomingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMZoomingImageView.m; sourceTree = "<group>"; };
+		B43C278F1D41BD4E00CC33A1 /* BWPreviewImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWPreviewImageManager.h; sourceTree = "<group>"; };
+		B43C27901D41BD4E00CC33A1 /* BWPreviewImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWPreviewImageManager.m; sourceTree = "<group>"; };
+		B43C27921D41C81900CC33A1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +124,11 @@
 		212F517D1D40AD3B001CBA91 /* BWImageUtility */ = {
 			isa = PBXGroup;
 			children = (
+				B43C27921D41C81900CC33A1 /* README.md */,
 				212F51811D40AD3B001CBA91 /* AppDelegate.h */,
 				212F51821D40AD3B001CBA91 /* AppDelegate.m */,
 				B4815FE51D40CD6100118586 /* MVC */,
+				B43C27821D41B37F00CC33A1 /* Image */,
 				212F518A1D40AD3B001CBA91 /* Assets.xcassets */,
 				212F517E1D40AD3B001CBA91 /* Supporting Files */,
 			);
@@ -118,6 +141,7 @@
 				212F517F1D40AD3B001CBA91 /* main.m */,
 				212F518F1D40AD3B001CBA91 /* Info.plist */,
 				212F518C1D40AD3B001CBA91 /* LaunchScreen.storyboard */,
+				B43C27811D41A7FC00CC33A1 /* BWImageUtilityPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -157,12 +181,41 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B43C27821D41B37F00CC33A1 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B43C27831D41B37F00CC33A1 /* show_landscape@2x.png */,
+				B43C27841D41B37F00CC33A1 /* show_portrait@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		B43C27871D41BB1400CC33A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B43C27881D41BB1400CC33A1 /* BWPreviewImageViewController.h */,
+				B43C27891D41BB1400CC33A1 /* BWPreviewImageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B43C278A1D41BB1400CC33A1 /* PreviewImageManager */ = {
+			isa = PBXGroup;
+			children = (
+				B43C278F1D41BD4E00CC33A1 /* BWPreviewImageManager.h */,
+				B43C27901D41BD4E00CC33A1 /* BWPreviewImageManager.m */,
+				B43C278B1D41BB1400CC33A1 /* BMZoomingImageView.h */,
+				B43C278C1D41BB1400CC33A1 /* BMZoomingImageView.m */,
+			);
+			path = PreviewImageManager;
+			sourceTree = "<group>";
+		};
 		B4815FE51D40CD6100118586 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
 				B4815FE71D40CD6100118586 /* Home */,
-				B4815FE61D40CD6100118586 /* Album */,
 				B4815FE81D40CD6100118586 /* PreviewImage */,
+				B4815FE61D40CD6100118586 /* Album */,
 			);
 			path = MVC;
 			sourceTree = "<group>";
@@ -170,6 +223,8 @@
 		B4815FE61D40CD6100118586 /* Album */ = {
 			isa = PBXGroup;
 			children = (
+				B43C277E1D41A6A000CC33A1 /* BWAlbumViewController.h */,
+				B43C277F1D41A6A000CC33A1 /* BWAlbumViewController.m */,
 			);
 			path = Album;
 			sourceTree = "<group>";
@@ -177,6 +232,8 @@
 		B4815FE71D40CD6100118586 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				B43C27781D41A68200CC33A1 /* BWHomeViewController.h */,
+				B43C27791D41A68200CC33A1 /* BWHomeViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -184,6 +241,8 @@
 		B4815FE81D40CD6100118586 /* PreviewImage */ = {
 			isa = PBXGroup;
 			children = (
+				B43C27871D41BB1400CC33A1 /* Controller */,
+				B43C278A1D41BB1400CC33A1 /* PreviewImageManager */,
 			);
 			path = PreviewImage;
 			sourceTree = "<group>";
@@ -294,6 +353,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43C27851D41B37F00CC33A1 /* show_landscape@2x.png in Resources */,
+				B43C27861D41B37F00CC33A1 /* show_portrait@2x.png in Resources */,
 				212F518E1D40AD3B001CBA91 /* LaunchScreen.storyboard in Resources */,
 				212F518B1D40AD3B001CBA91 /* Assets.xcassets in Resources */,
 			);
@@ -368,7 +429,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43C277A1D41A68200CC33A1 /* BWHomeViewController.m in Sources */,
+				B43C278D1D41BB1400CC33A1 /* BWPreviewImageViewController.m in Sources */,
 				212F51831D40AD3B001CBA91 /* AppDelegate.m in Sources */,
+				B43C27911D41BD4E00CC33A1 /* BWPreviewImageManager.m in Sources */,
+				B43C278E1D41BB1400CC33A1 /* BMZoomingImageView.m in Sources */,
+				B43C27801D41A6A000CC33A1 /* BWAlbumViewController.m in Sources */,
 				212F51801D40AD3B001CBA91 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +569,7 @@
 			baseConfigurationReference = 9D4DE177FDA02CA82817E12C /* Pods-BWImageUtility.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = BWImageUtility/BWImageUtilityPrefixHeader.pch;
 				INFOPLIST_FILE = BWImageUtility/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -516,6 +583,7 @@
 			baseConfigurationReference = 54F6D4CD257DCA175E908672 /* Pods-BWImageUtility.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = BWImageUtility/BWImageUtilityPrefixHeader.pch;
 				INFOPLIST_FILE = BWImageUtility/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
