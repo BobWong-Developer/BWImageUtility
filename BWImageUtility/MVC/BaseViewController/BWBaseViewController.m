@@ -1,26 +1,24 @@
 //
-//  BWAlbumViewController.m
+//  BWBaseViewController.m
 //  BWImageUtility
 //
 //  Created by BobWong on 16/7/22.
 //  Copyright © 2016年 Bob Wong Studio. All rights reserved.
 //
 
-#import "BWAlbumViewController.h"
+#import "BWBaseViewController.h"
 
-@interface BWAlbumViewController ()
-
-
+@interface BWBaseViewController ()
 
 @end
 
-@implementation BWAlbumViewController
+@implementation BWBaseViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    
+    self.edgesForExtendedLayout = UIRectEdgeNone;
 }
 
 @end

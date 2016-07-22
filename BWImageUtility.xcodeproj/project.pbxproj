@@ -14,12 +14,18 @@
 		212F51991D40AD3B001CBA91 /* BWImageUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F51981D40AD3B001CBA91 /* BWImageUtilityTests.m */; };
 		212F51A41D40AD3B001CBA91 /* BWImageUtilityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F51A31D40AD3B001CBA91 /* BWImageUtilityUITests.m */; };
 		B43C277A1D41A68200CC33A1 /* BWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C27791D41A68200CC33A1 /* BWHomeViewController.m */; };
-		B43C27801D41A6A000CC33A1 /* BWAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C277F1D41A6A000CC33A1 /* BWAlbumViewController.m */; };
 		B43C27851D41B37F00CC33A1 /* show_landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B43C27831D41B37F00CC33A1 /* show_landscape@2x.png */; };
 		B43C27861D41B37F00CC33A1 /* show_portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B43C27841D41B37F00CC33A1 /* show_portrait@2x.png */; };
 		B43C278D1D41BB1400CC33A1 /* BWPreviewImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C27891D41BB1400CC33A1 /* BWPreviewImageViewController.m */; };
 		B43C278E1D41BB1400CC33A1 /* BMZoomingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C278C1D41BB1400CC33A1 /* BMZoomingImageView.m */; };
 		B43C27911D41BD4E00CC33A1 /* BWPreviewImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C27901D41BD4E00CC33A1 /* BWPreviewImageManager.m */; };
+		B43C279A1D41D03600CC33A1 /* BWAlbumImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C27981D41D03600CC33A1 /* BWAlbumImagesViewController.m */; };
+		B43C279E1D41D0BC00CC33A1 /* BWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C279D1D41D0BC00CC33A1 /* BWBaseViewController.m */; };
+		B43C27A11D41D0FE00CC33A1 /* BWImageSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C27A01D41D0FE00CC33A1 /* BWImageSelectionViewController.m */; };
+		B43C27A31D41D19400CC33A1 /* BWImageSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43C27A21D41D19400CC33A1 /* BWImageSelectionViewController.xib */; };
+		B43C27A51D41FEF200CC33A1 /* BWAlbumImagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43C27A41D41FEF200CC33A1 /* BWAlbumImagesViewController.xib */; };
+		B43C27A91D4206F800CC33A1 /* BWWebImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C27A71D4206F800CC33A1 /* BWWebImageViewController.m */; };
+		B43C27AA1D4206F800CC33A1 /* BWWebImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43C27A81D4206F800CC33A1 /* BWWebImageViewController.xib */; };
 		C6B34B25118F0EE73FB888A7 /* libPods-BWImageUtility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B415BF0F31D11D1D4879FC1D /* libPods-BWImageUtility.a */; };
 /* End PBXBuildFile section */
 
@@ -59,8 +65,6 @@
 		B415BF0F31D11D1D4879FC1D /* libPods-BWImageUtility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWImageUtility.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43C27781D41A68200CC33A1 /* BWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeViewController.h; sourceTree = "<group>"; };
 		B43C27791D41A68200CC33A1 /* BWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHomeViewController.m; sourceTree = "<group>"; };
-		B43C277E1D41A6A000CC33A1 /* BWAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWAlbumViewController.h; sourceTree = "<group>"; };
-		B43C277F1D41A6A000CC33A1 /* BWAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWAlbumViewController.m; sourceTree = "<group>"; };
 		B43C27811D41A7FC00CC33A1 /* BWImageUtilityPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWImageUtilityPrefixHeader.pch; sourceTree = "<group>"; };
 		B43C27831D41B37F00CC33A1 /* show_landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "show_landscape@2x.png"; sourceTree = "<group>"; };
 		B43C27841D41B37F00CC33A1 /* show_portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "show_portrait@2x.png"; sourceTree = "<group>"; };
@@ -71,6 +75,17 @@
 		B43C278F1D41BD4E00CC33A1 /* BWPreviewImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWPreviewImageManager.h; sourceTree = "<group>"; };
 		B43C27901D41BD4E00CC33A1 /* BWPreviewImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWPreviewImageManager.m; sourceTree = "<group>"; };
 		B43C27921D41C81900CC33A1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		B43C27971D41D03600CC33A1 /* BWAlbumImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWAlbumImagesViewController.h; sourceTree = "<group>"; };
+		B43C27981D41D03600CC33A1 /* BWAlbumImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWAlbumImagesViewController.m; sourceTree = "<group>"; };
+		B43C279C1D41D0BC00CC33A1 /* BWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWBaseViewController.h; sourceTree = "<group>"; };
+		B43C279D1D41D0BC00CC33A1 /* BWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWBaseViewController.m; sourceTree = "<group>"; };
+		B43C279F1D41D0FE00CC33A1 /* BWImageSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWImageSelectionViewController.h; sourceTree = "<group>"; };
+		B43C27A01D41D0FE00CC33A1 /* BWImageSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWImageSelectionViewController.m; sourceTree = "<group>"; };
+		B43C27A21D41D19400CC33A1 /* BWImageSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWImageSelectionViewController.xib; sourceTree = "<group>"; };
+		B43C27A41D41FEF200CC33A1 /* BWAlbumImagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWAlbumImagesViewController.xib; sourceTree = "<group>"; };
+		B43C27A61D4206F800CC33A1 /* BWWebImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWWebImageViewController.h; sourceTree = "<group>"; };
+		B43C27A71D4206F800CC33A1 /* BWWebImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWWebImageViewController.m; sourceTree = "<group>"; };
+		B43C27A81D4206F800CC33A1 /* BWWebImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWWebImageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,23 +225,64 @@
 			path = PreviewImageManager;
 			sourceTree = "<group>";
 		};
+		B43C27941D41CE0000CC33A1 /* WebImage */ = {
+			isa = PBXGroup;
+			children = (
+				B43C27A61D4206F800CC33A1 /* BWWebImageViewController.h */,
+				B43C27A71D4206F800CC33A1 /* BWWebImageViewController.m */,
+				B43C27A81D4206F800CC33A1 /* BWWebImageViewController.xib */,
+			);
+			path = WebImage;
+			sourceTree = "<group>";
+		};
+		B43C27951D41D03600CC33A1 /* ImageSelection */ = {
+			isa = PBXGroup;
+			children = (
+				B43C279F1D41D0FE00CC33A1 /* BWImageSelectionViewController.h */,
+				B43C27A01D41D0FE00CC33A1 /* BWImageSelectionViewController.m */,
+				B43C27A21D41D19400CC33A1 /* BWImageSelectionViewController.xib */,
+				B43C27991D41D03600CC33A1 /* Single */,
+				B43C27961D41D03600CC33A1 /* Album */,
+			);
+			path = ImageSelection;
+			sourceTree = "<group>";
+		};
+		B43C27961D41D03600CC33A1 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				B43C27971D41D03600CC33A1 /* BWAlbumImagesViewController.h */,
+				B43C27981D41D03600CC33A1 /* BWAlbumImagesViewController.m */,
+				B43C27A41D41FEF200CC33A1 /* BWAlbumImagesViewController.xib */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		B43C27991D41D03600CC33A1 /* Single */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Single;
+			sourceTree = "<group>";
+		};
+		B43C279B1D41D0AF00CC33A1 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B43C279C1D41D0BC00CC33A1 /* BWBaseViewController.h */,
+				B43C279D1D41D0BC00CC33A1 /* BWBaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
 		B4815FE51D40CD6100118586 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				B43C279B1D41D0AF00CC33A1 /* BaseViewController */,
 				B4815FE71D40CD6100118586 /* Home */,
 				B4815FE81D40CD6100118586 /* PreviewImage */,
-				B4815FE61D40CD6100118586 /* Album */,
+				B43C27951D41D03600CC33A1 /* ImageSelection */,
+				B43C27941D41CE0000CC33A1 /* WebImage */,
 			);
 			path = MVC;
-			sourceTree = "<group>";
-		};
-		B4815FE61D40CD6100118586 /* Album */ = {
-			isa = PBXGroup;
-			children = (
-				B43C277E1D41A6A000CC33A1 /* BWAlbumViewController.h */,
-				B43C277F1D41A6A000CC33A1 /* BWAlbumViewController.m */,
-			);
-			path = Album;
 			sourceTree = "<group>";
 		};
 		B4815FE71D40CD6100118586 /* Home */ = {
@@ -355,7 +411,10 @@
 			files = (
 				B43C27851D41B37F00CC33A1 /* show_landscape@2x.png in Resources */,
 				B43C27861D41B37F00CC33A1 /* show_portrait@2x.png in Resources */,
+				B43C27AA1D4206F800CC33A1 /* BWWebImageViewController.xib in Resources */,
 				212F518E1D40AD3B001CBA91 /* LaunchScreen.storyboard in Resources */,
+				B43C27A51D41FEF200CC33A1 /* BWAlbumImagesViewController.xib in Resources */,
+				B43C27A31D41D19400CC33A1 /* BWImageSelectionViewController.xib in Resources */,
 				212F518B1D40AD3B001CBA91 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,12 +488,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43C27A91D4206F800CC33A1 /* BWWebImageViewController.m in Sources */,
 				B43C277A1D41A68200CC33A1 /* BWHomeViewController.m in Sources */,
 				B43C278D1D41BB1400CC33A1 /* BWPreviewImageViewController.m in Sources */,
+				B43C279A1D41D03600CC33A1 /* BWAlbumImagesViewController.m in Sources */,
 				212F51831D40AD3B001CBA91 /* AppDelegate.m in Sources */,
+				B43C279E1D41D0BC00CC33A1 /* BWBaseViewController.m in Sources */,
 				B43C27911D41BD4E00CC33A1 /* BWPreviewImageManager.m in Sources */,
 				B43C278E1D41BB1400CC33A1 /* BMZoomingImageView.m in Sources */,
-				B43C27801D41A6A000CC33A1 /* BWAlbumViewController.m in Sources */,
+				B43C27A11D41D0FE00CC33A1 /* BWImageSelectionViewController.m in Sources */,
 				212F51801D40AD3B001CBA91 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  BWAlbumViewController.h
+//  BWAlbumImagesViewController.h
 //  BWImageUtility
 //
 //  Created by BobWong on 16/7/22.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BWAlbumViewController : UIViewController
+@interface BWAlbumImagesViewController : UIViewController
 
 @end

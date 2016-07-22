@@ -8,10 +8,10 @@
 
 #import "BWHomeViewController.h"
 #import "BWPreviewImageViewController.h"
-#import "BWAlbumViewController.h"
+#import "BWImageSelectionViewController.h"
 
 NSString *const kTitlePreviewImage = @"Preview Image";
-NSString *const kTitleAlbum = @"Album Operation";
+NSString *const kTitleImageSelection = @"Image Selection";
 
 @interface BWHomeViewController () <UITableViewDataSource, UITableViewDelegate>
 {
@@ -28,7 +28,7 @@ NSString *const kTitleAlbum = @"Album Operation";
     
     self.title = @"BWImageUtility";
     
-    _dataSource = @[kTitlePreviewImage, kTitleAlbum];
+    _dataSource = @[kTitlePreviewImage, kTitleImageSelection];
     
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     tableView.dataSource = self;
@@ -62,8 +62,8 @@ NSString *const kTitleAlbum = @"Album Operation";
     if ([title isEqualToString:kTitlePreviewImage]) {
         nextVC = BWPreviewImageViewController.new;
     }
-    else if ([title isEqualToString:kTitleAlbum]) {
-        nextVC = BWAlbumViewController.new;
+    else if ([title isEqualToString:kTitleImageSelection]) {
+        nextVC = BWImageSelectionViewController.new;
     }
     
     [self.navigationController pushViewController:nextVC animated:YES];
