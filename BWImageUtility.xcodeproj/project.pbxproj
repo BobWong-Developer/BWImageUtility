@@ -52,6 +52,8 @@
 		B43C280C1D421B3500CC33A1 /* ZLPhotoLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B43C27F41D421B3500CC33A1 /* ZLPhotoLib.bundle */; };
 		B43C28121D421B6300CC33A1 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C280F1D421B6300CC33A1 /* DACircularProgressView.m */; };
 		B43C28131D421B6300CC33A1 /* DALabeledCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B43C28111D421B6300CC33A1 /* DALabeledCircularProgressView.m */; };
+		B4A753C61DD1A6A6001AF6C3 /* BWAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A753C41DD1A6A6001AF6C3 /* BWAlbumCell.m */; };
+		B4A753C71DD1A6A6001AF6C3 /* BWAlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4A753C51DD1A6A6001AF6C3 /* BWAlbumCell.xib */; };
 		C6B34B25118F0EE73FB888A7 /* libPods-BWImageUtility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B415BF0F31D11D1D4879FC1D /* libPods-BWImageUtility.a */; };
 /* End PBXBuildFile section */
 
@@ -165,6 +167,9 @@
 		B43C280F1D421B6300CC33A1 /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
 		B43C28101D421B6300CC33A1 /* DALabeledCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALabeledCircularProgressView.h; sourceTree = "<group>"; };
 		B43C28111D421B6300CC33A1 /* DALabeledCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DALabeledCircularProgressView.m; sourceTree = "<group>"; };
+		B4A753C31DD1A6A6001AF6C3 /* BWAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWAlbumCell.h; sourceTree = "<group>"; };
+		B4A753C41DD1A6A6001AF6C3 /* BWAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWAlbumCell.m; sourceTree = "<group>"; };
+		B4A753C51DD1A6A6001AF6C3 /* BWAlbumCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWAlbumCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -333,6 +338,7 @@
 				B43C27971D41D03600CC33A1 /* BWAlbumImagesViewController.h */,
 				B43C27981D41D03600CC33A1 /* BWAlbumImagesViewController.m */,
 				B43C27A41D41FEF200CC33A1 /* BWAlbumImagesViewController.xib */,
+				B4A753C21DD1A686001AF6C3 /* View */,
 			);
 			path = Album;
 			sourceTree = "<group>";
@@ -563,6 +569,16 @@
 			path = PreviewImage;
 			sourceTree = "<group>";
 		};
+		B4A753C21DD1A686001AF6C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4A753C31DD1A6A6001AF6C3 /* BWAlbumCell.h */,
+				B4A753C41DD1A6A6001AF6C3 /* BWAlbumCell.m */,
+				B4A753C51DD1A6A6001AF6C3 /* BWAlbumCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -633,6 +649,7 @@
 				TargetAttributes = {
 					212F517A1D40AD3B001CBA91 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = V3E8GUFW32;
 					};
 					212F51931D40AD3B001CBA91 = {
 						CreatedOnToolsVersion = 7.3;
@@ -673,6 +690,7 @@
 				B43C27851D41B37F00CC33A1 /* show_landscape@2x.png in Resources */,
 				B43C27861D41B37F00CC33A1 /* show_portrait@2x.png in Resources */,
 				B43C27AA1D4206F800CC33A1 /* BWWebImageViewController.xib in Resources */,
+				B4A753C71DD1A6A6001AF6C3 /* BWAlbumCell.xib in Resources */,
 				212F518E1D40AD3B001CBA91 /* LaunchScreen.storyboard in Resources */,
 				B43C27A51D41FEF200CC33A1 /* BWAlbumImagesViewController.xib in Resources */,
 				B43C27A31D41D19400CC33A1 /* BWImageSelectionViewController.xib in Resources */,
@@ -763,6 +781,7 @@
 				B43C27FD1D421B3500CC33A1 /* ZLPhotoPickerBrowserPhotoView.m in Sources */,
 				B43C27FF1D421B3500CC33A1 /* ZLPhotoAssets.m in Sources */,
 				B43C28071D421B3500CC33A1 /* ZLPhotoPickerCollectionView.m in Sources */,
+				B4A753C61DD1A6A6001AF6C3 /* BWAlbumCell.m in Sources */,
 				B43C28121D421B6300CC33A1 /* DACircularProgressView.m in Sources */,
 				B43C279A1D41D03600CC33A1 /* BWAlbumImagesViewController.m in Sources */,
 				B43C280A1D421B3500CC33A1 /* ZLPhotoPickerGroupTableViewCell.m in Sources */,
@@ -917,12 +936,15 @@
 			baseConfigurationReference = 9D4DE177FDA02CA82817E12C /* Pods-BWImageUtility.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = BWImageUtility/BWImageUtilityPrefixHeader.pch;
 				INFOPLIST_FILE = BWImageUtility/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWImageUtility;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWImageUtility1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -931,12 +953,15 @@
 			baseConfigurationReference = 54F6D4CD257DCA175E908672 /* Pods-BWImageUtility.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = BWImageUtility/BWImageUtilityPrefixHeader.pch;
 				INFOPLIST_FILE = BWImageUtility/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWImageUtility;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWImageUtility1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

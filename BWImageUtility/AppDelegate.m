@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "BWHomeViewController.h"
+#import "BWAlbumImagesViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,8 +18,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    BWHomeViewController *vcHome = [[BWHomeViewController alloc] init];
-    UINavigationController *nvgtVCHome = [[UINavigationController alloc] initWithRootViewController:vcHome];
+//    BWHomeViewController *vcHome = [[BWHomeViewController alloc] init];
+    BWAlbumImagesViewController *vcAlbum = [[BWAlbumImagesViewController alloc] init];
+    
+    UINavigationController *nvgtVCHome = [[UINavigationController alloc] initWithRootViewController:vcAlbum];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = nvgtVCHome;
